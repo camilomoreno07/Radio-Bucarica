@@ -1,0 +1,16 @@
+PODS:
+  - FRadioPlayer (0.1.10)
+
+DEPENDENCIES:
+  - FRadioPlayer
+
+SPEC REPOS:
+  trunk:
+    - FRadioPlayer
+
+SPEC CHECKSUMS:
+  FRadioPlayer: f803d7b2ad83d5ccbc988ab88d490f4e6489e1fa
+
+PODFILE CHECKSUM: 3507fb812de7db03f852c0affbe5e091a51c74a4
+
+COCOAPODS: 1.11.2

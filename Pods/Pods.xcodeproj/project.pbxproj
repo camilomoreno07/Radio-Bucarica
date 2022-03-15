@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B56819ABD32541BE04A6460E5693F9D /* Pods-Radio Bucarica-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEA57CE962EC60FAC13E8CF38110130 /* Pods-Radio Bucarica-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37EBCDC3B083A202425E3B275D58E818 /* Pods-Radio Bucarica-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7202B5385D1357C397E3E33697F81A71 /* Pods-Radio Bucarica-dummy.m */; };
+		38389953488873D2358361AFDAF7EB6C /* FRadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C6268D5EFFA8B09715FEAC04A06B42 /* FRadioPlayer.swift */; };
+		41A3C7F4F369BCFBC1C02BAD6918C28D /* FRadioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2553ABF3CE76B1A99A1B6B7C483E5928 /* FRadioPlayer-dummy.m */; };
+		5D5105686ECB3789E6C235F8C89620C9 /* FRadioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52A0FA79521FFAF07D9D46ABB6C405 /* FRadioAPI.swift */; };
+		7D4D602530C18A17C237BE0AD69CEFCE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF079DFDC7C48E06CD95D32B309DECF4 /* Reachability.swift */; };
+		AC46AEF5731B8B47C0C78D2FC6B02C45 /* FRadioPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD8C504C38CE8CFA9A4E7EE75F60352 /* FRadioPlayer-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67ABC063DDD1A299F8361D8AC6D3CC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F912D27FF13364719D09D1A93FCC468;
+			remoteInfo = FRadioPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13AE73B0BA0AEE4556CE31333BC72B1F /* FRadioPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRadioPlayer-prefix.pch"; sourceTree = "<group>"; };
+		1FD8C504C38CE8CFA9A4E7EE75F60352 /* FRadioPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRadioPlayer-umbrella.h"; sourceTree = "<group>"; };
+		2553ABF3CE76B1A99A1B6B7C483E5928 /* FRadioPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FRadioPlayer-dummy.m"; sourceTree = "<group>"; };
+		2DFE3210A51D02A0B5760EE5A37084A1 /* Pods-Radio Bucarica-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Radio Bucarica-acknowledgements.plist"; sourceTree = "<group>"; };
+		31C1765573C87EA86CF7B76E1B57B276 /* Pods-Radio Bucarica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio Bucarica.release.xcconfig"; sourceTree = "<group>"; };
+		37C6268D5EFFA8B09715FEAC04A06B42 /* FRadioPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FRadioPlayer.swift; path = Source/FRadioPlayer.swift; sourceTree = "<group>"; };
+		579333CC0A6276D257D4CC56FA81943C /* Pods-Radio Bucarica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio Bucarica.debug.xcconfig"; sourceTree = "<group>"; };
+		7202B5385D1357C397E3E33697F81A71 /* Pods-Radio Bucarica-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Radio Bucarica-dummy.m"; sourceTree = "<group>"; };
+		791C88DB438628F02291C916B9E3A54F /* Pods-Radio Bucarica.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Radio Bucarica.modulemap"; sourceTree = "<group>"; };
+		7CEA57CE962EC60FAC13E8CF38110130 /* Pods-Radio Bucarica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Radio Bucarica-umbrella.h"; sourceTree = "<group>"; };
+		847DE5A2B739B65EBE9EC93750FDB230 /* FRadioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FRadioPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		94A8B4A57CC58191878D7F7B6CC59375 /* FRadioPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FRadioPlayer.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8C5FDF48BB2B79C055D13B861AC7F22 /* Pods-Radio Bucarica-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Radio Bucarica-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4F8710B9ED960170071E8B4311449BF /* libFRadioPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFRadioPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD52A0FA79521FFAF07D9D46ABB6C405 /* FRadioAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FRadioAPI.swift; path = Source/FRadioAPI.swift; sourceTree = "<group>"; };
+		DE0DD81B0B5D6EFF55058B51CCE5BF2B /* libPods-Radio Bucarica.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Radio Bucarica.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF079DFDC7C48E06CD95D32B309DECF4 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Source/Reachability.swift; sourceTree = "<group>"; };
+		FFC2F73BEE7560075BF5CF1BF9AA9ED5 /* FRadioPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FRadioPlayer.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A4E0A83BB768921FEB3E82F89D3563A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42E228159302656FB1F68C743D034DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D64BEE2211758D584FA5C1AD1210676 /* FRadioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DD52A0FA79521FFAF07D9D46ABB6C405 /* FRadioAPI.swift */,
+				37C6268D5EFFA8B09715FEAC04A06B42 /* FRadioPlayer.swift */,
+				DF079DFDC7C48E06CD95D32B309DECF4 /* Reachability.swift */,
+				E2D0B822D072F31D4A66A883BED0B657 /* Support Files */,
+			);
+			path = FRadioPlayer;
+			sourceTree = "<group>";
+		};
+		4F246CB2D21DBE23AE605520A9E78DDE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F418834E0432F56D8CB382766D868F /* Pods-Radio Bucarica */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		83F418834E0432F56D8CB382766D868F /* Pods-Radio Bucarica */ = {
+			isa = PBXGroup;
+			children = (
+				791C88DB438628F02291C916B9E3A54F /* Pods-Radio Bucarica.modulemap */,
+				A8C5FDF48BB2B79C055D13B861AC7F22 /* Pods-Radio Bucarica-acknowledgements.markdown */,
+				2DFE3210A51D02A0B5760EE5A37084A1 /* Pods-Radio Bucarica-acknowledgements.plist */,
+				7202B5385D1357C397E3E33697F81A71 /* Pods-Radio Bucarica-dummy.m */,
+				7CEA57CE962EC60FAC13E8CF38110130 /* Pods-Radio Bucarica-umbrella.h */,
+				579333CC0A6276D257D4CC56FA81943C /* Pods-Radio Bucarica.debug.xcconfig */,
+				31C1765573C87EA86CF7B76E1B57B276 /* Pods-Radio Bucarica.release.xcconfig */,
+			);
+			name = "Pods-Radio Bucarica";
+			path = "Target Support Files/Pods-Radio Bucarica";
+			sourceTree = "<group>";
+		};
+		B38FF0AC30EF48C7C2FF90B4D2D88F12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D64BEE2211758D584FA5C1AD1210676 /* FRadioPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				B38FF0AC30EF48C7C2FF90B4D2D88F12 /* Pods */,
+				F5875845A564A27D3D3EFD3C6C21DC6A /* Products */,
+				4F246CB2D21DBE23AE605520A9E78DDE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2D0B822D072F31D4A66A883BED0B657 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94A8B4A57CC58191878D7F7B6CC59375 /* FRadioPlayer.modulemap */,
+				2553ABF3CE76B1A99A1B6B7C483E5928 /* FRadioPlayer-dummy.m */,
+				13AE73B0BA0AEE4556CE31333BC72B1F /* FRadioPlayer-prefix.pch */,
+				1FD8C504C38CE8CFA9A4E7EE75F60352 /* FRadioPlayer-umbrella.h */,
+				847DE5A2B739B65EBE9EC93750FDB230 /* FRadioPlayer.debug.xcconfig */,
+				FFC2F73BEE7560075BF5CF1BF9AA9ED5 /* FRadioPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FRadioPlayer";
+			sourceTree = "<group>";
+		};
+		F5875845A564A27D3D3EFD3C6C21DC6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4F8710B9ED960170071E8B4311449BF /* libFRadioPlayer.a */,
+				DE0DD81B0B5D6EFF55058B51CCE5BF2B /* libPods-Radio Bucarica.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CE96725960730B23E25A2428C1C5A89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B56819ABD32541BE04A6460E5693F9D /* Pods-Radio Bucarica-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BDBFAC95A54FEF97DE59D6C7CB821A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC46AEF5731B8B47C0C78D2FC6B02C45 /* FRadioPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F912D27FF13364719D09D1A93FCC468 /* FRadioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7E6D10741A39D4F97FF5FB190333D6 /* Build configuration list for PBXNativeTarget "FRadioPlayer" */;
+			buildPhases = (
+				F7BDBFAC95A54FEF97DE59D6C7CB821A /* Headers */,
+				153CAF1050FB0D1D0EFF52073140B125 /* Sources */,
+				7A4E0A83BB768921FEB3E82F89D3563A /* Frameworks */,
+				19A525A6B26E434FA17CB3D84344E9C8 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRadioPlayer;
+			productName = FRadioPlayer;
+			productReference = B4F8710B9ED960170071E8B4311449BF /* libFRadioPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA822DA7A5E76204EB98985FB92013B9 /* Pods-Radio Bucarica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24825C06802E3E8EB5FD6F48E6ACA593 /* Build configuration list for PBXNativeTarget "Pods-Radio Bucarica" */;
+			buildPhases = (
+				2CE96725960730B23E25A2428C1C5A89 /* Headers */,
+				6E4CE6275CCC99265FD47CCB247AF0B3 /* Sources */,
+				C42E228159302656FB1F68C743D034DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2621EB3B443B154AC98FB41DB5DEDC4C /* PBXTargetDependency */,
+			);
+			name = "Pods-Radio Bucarica";
+			productName = "Pods-Radio Bucarica";
+			productReference = DE0DD81B0B5D6EFF55058B51CCE5BF2B /* libPods-Radio Bucarica.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1310;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F5875845A564A27D3D3EFD3C6C21DC6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F912D27FF13364719D09D1A93FCC468 /* FRadioPlayer */,
+				AA822DA7A5E76204EB98985FB92013B9 /* Pods-Radio Bucarica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19A525A6B26E434FA17CB3D84344E9C8 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FRadioPlayer/FRadioPlayer.modulemap",
+				"${PODS_ROOT}/Headers/Public/FRadioPlayer/FRadioPlayer-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FRadioPlayer-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FRadioPlayer/FRadioPlayer.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FRadioPlayer/FRadioPlayer-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153CAF1050FB0D1D0EFF52073140B125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5105686ECB3789E6C235F8C89620C9 /* FRadioAPI.swift in Sources */,
+				38389953488873D2358361AFDAF7EB6C /* FRadioPlayer.swift in Sources */,
+				41A3C7F4F369BCFBC1C02BAD6918C28D /* FRadioPlayer-dummy.m in Sources */,
+				7D4D602530C18A17C237BE0AD69CEFCE /* Reachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4CE6275CCC99265FD47CCB247AF0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EBCDC3B083A202425E3B275D58E818 /* Pods-Radio Bucarica-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2621EB3B443B154AC98FB41DB5DEDC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FRadioPlayer;
+			target = 7F912D27FF13364719D09D1A93FCC468 /* FRadioPlayer */;
+			targetProxy = 67ABC063DDD1A299F8361D8AC6D3CC56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		350A4BD627A56A305F9ABDFB891A2CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC2F73BEE7560075BF5CF1BF9AA9ED5 /* FRadioPlayer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FRadioPlayer/FRadioPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/FRadioPlayer/FRadioPlayer.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FRadioPlayer;
+				PRODUCT_NAME = FRadioPlayer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7563B08807DF45887DC408F67870384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579333CC0A6276D257D4CC56FA81943C /* Pods-Radio Bucarica.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Radio Bucarica/Pods-Radio Bucarica.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96E46CB822787CA7B7795C6593D950D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847DE5A2B739B65EBE9EC93750FDB230 /* FRadioPlayer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FRadioPlayer/FRadioPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/FRadioPlayer/FRadioPlayer.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FRadioPlayer;
+				PRODUCT_NAME = FRadioPlayer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F61D40E065CEF071558C9CB980722D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C1765573C87EA86CF7B76E1B57B276 /* Pods-Radio Bucarica.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Radio Bucarica/Pods-Radio Bucarica.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24825C06802E3E8EB5FD6F48E6ACA593 /* Build configuration list for PBXNativeTarget "Pods-Radio Bucarica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7563B08807DF45887DC408F67870384C /* Debug */,
+				F61D40E065CEF071558C9CB980722D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7E6D10741A39D4F97FF5FB190333D6 /* Build configuration list for PBXNativeTarget "FRadioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E46CB822787CA7B7795C6593D950D2 /* Debug */,
+				350A4BD627A56A305F9ABDFB891A2CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
